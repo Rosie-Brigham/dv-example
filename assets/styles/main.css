@@ -1,0 +1,46 @@
+.modal-content {
+  text-align: center;
+  color: #e2e0e0;
+  background-color: #6C6C6C;
+  width: 400px;
+  margin: 0 auto;
+}
+
+/*.modal-body {
+  height: 300px;
+}*/
+
+.modal-body p#intro {
+
+}
+
+.modal-body p#menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.modal-body p#menu section {
+  width: 50%;
+  height: 70px;
+  margin-bottom: 20px;
+  cursor:pointer;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.modal-body p#menu section:hover {
+  opacity: 0.6;
+}
+
+.modal-body p#menu section div {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url("http://placehold.it/50x50");
+  height: 50px;
+  width: 50px;
+}
+
