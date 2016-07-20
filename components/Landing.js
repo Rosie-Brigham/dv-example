@@ -8,7 +8,7 @@ class Landing extends Component {
 
   render() {
     return (
-      <section id="intro">
+      <section id="landing">
         <p>
         This is an untraceable embedded website to help victims of domestic violence.
         <br/>
@@ -16,9 +16,10 @@ class Landing extends Component {
         </p>
 
         <Button
-          bsStyle="primary"
+          bsStyle="danger"
           bsSize="large"
-          onClick={this.props.enter}
+          id="Menu"
+          onClick={this.props.changeView }
         >
           Enter
         </Button>
