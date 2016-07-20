@@ -4,23 +4,33 @@
   background-color: #6C6C6C;
   width: 400px;
   margin: 0 auto;
+  height: 400px;
 }
 
-/*.modal-body {
-  height: 300px;
-}*/
-
-.modal-body p#intro {
-
+.modal-header #back-button, .modal-title {
+  display: inline;
 }
 
-.modal-body p#menu {
+.modal-header #back-button {
+  float: left;
+}
+
+
+.modal-body {
+  height: 275px;
+}
+
+.modal-body section#landing p {
+  margin: 0 0 130px;
+}
+
+.modal-body div#menu {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.modal-body p#menu section {
+.modal-body div#menu section {
   width: 50%;
   height: 70px;
   margin-bottom: 20px;
@@ -31,11 +41,11 @@
    -webkit-transition: opacity .25s ease-in-out;
 }
 
-.modal-body p#menu section:hover {
+.modal-body div#menu section:hover {
   opacity: 0.6;
 }
 
-.modal-body p#menu section div {
+.modal-body div#menu section div {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
@@ -44,3 +54,10 @@
   width: 50px;
 }
 
+.modal-body div h1 {
+  margin: 0;
+}
+
+.modal-body div#danger ol {
+  text-align: left;
+}
