@@ -16,6 +16,10 @@ class ModalElement extends Component {
     this.setState({ showModal: true });
   }
 
+  wip() {
+    alert("oops, this doesn't work yet!")
+  }
+
 
   render() {
     return (
@@ -24,8 +28,9 @@ class ModalElement extends Component {
           onClick={this.open.bind(this)}
           />
 
-        <Modal show={this.state.showModal} onHide={this.close}>
+        <Modal show={this.state.showModal} onHide={this.close.bind(this)}>
           <Modal.Header closeButton>
+            <img id="back-button" src="../assets/arrow.png" onClick={this.wip}/>
             <Modal.Title>Untraceable Help</Modal.Title>
           </Modal.Header>
           <Modal.Body>

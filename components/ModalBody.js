@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 import { Button } from 'react-bootstrap'
 import Landing from './Landing'
 import Menu from './Menu'
+import Danger from './Danger'
+import Online from './Online'
+import Leave from './Leave'
+import Legal from './Legal'
+import Friend from './Friend'
 
 class MainBody extends Component {
   constructor(props){
