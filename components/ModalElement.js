@@ -24,13 +24,13 @@ class ModalElement extends Component {
   render() {
     return (
       <div>
-        <img src="../assets/chayn-bulb-smallest.jpg"
+        <img id="damm-logo" src="https://cdn-images-1.medium.com/fit/c/100/100/1*77RVJc1DowJeKFcmCegmQg.png"
           onClick={this.open.bind(this)}
           />
 
         <Modal show={this.state.showModal} onHide={this.close.bind(this)}>
           <Modal.Header closeButton>
-            <img id="back-button" src="../assets/arrow.png" onClick={this.wip}/>
+            <img id="back-button" src="http://downloadicons.net/sites/default/files/returns--button-icon-51007.png" onClick={this.wip}/>
             <Modal.Title>Untraceable Help</Modal.Title>
           </Modal.Header>
           <Modal.Body>

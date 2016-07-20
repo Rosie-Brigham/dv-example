@@ -61,3 +61,13 @@
 .modal-body div#danger ol {
   text-align: left;
 }
+
+
+#damm-logo {
+  width: 30px;
+  height: 30px;
+}
+#back-button {
+  width: 25px;
+  height: 25px;
+}
